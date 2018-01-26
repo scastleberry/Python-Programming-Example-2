@@ -1,0 +1,18 @@
+#E-Mail used for request:
+#stephen.castleberry@noaa.gov
+
+# Set the needed save / temporary directory paths.
+#
+# A directory to temporarily hold the downloaded .tar files for extraction for each FTP path iteration. Ensure this directory is empty before running this script.
+/home/scastleberry/Documents/Radar_Data/FTP_Tmp
+# The base save directory for the extracted zipped files.
+/home/scastleberry/Documents/Radar_Data/COMPRESSED
+
+#NCDC Level-II Data Request Date FTP Locations:
+#
+# Generally of the form below, where # denotes specific FTP directory numbers:
+#http://ftp3.ncdc.noaa.gov/pub/has/HAS#########/
+
+#http://ftp3.ncdc.noaa.gov/pub/has/HAS010510108/
+https://www1.ncdc.noaa.gov/pub/has/HAS010925005/
+
